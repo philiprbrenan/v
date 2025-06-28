@@ -498,7 +498,7 @@ fn main() {
 While variable shadowing is not allowed, field shadowing is allowed.
 ```v
 pub struct Dimension {
-	width  int = -1
+	width  int = -1  // Using -1 because V does not have a null type
 	height int = -1
 }
 
